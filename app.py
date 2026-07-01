@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 app = Flask(__name__)
 
 # Load dataset
-data = pd.read_csv(r"C:\Users\ADMIN\Desktop\Employee_Salary_prediction\dataset\salary_data.csv")
+data = pd.read_csv(r"dataset/salary_data.csv")
 
 # Train model
 X = data[["Experience"]]
